@@ -13,6 +13,10 @@ body {
   /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc { 
     display: block !important; 
+    .center {
+    text-align: center;
+    padding-top: 300px;
+}
 }
 .phone {
     display: none !important;
@@ -25,6 +29,10 @@ body {
     }
     .phone { 
         display: block !important; 
+        .center {
+    text-align: center;
+    padding-top: 150px;
+}
     }
 }
 
@@ -101,10 +109,7 @@ header a {
     visibility: hidden;
   }
 
-.center {
-    text-align: center;
-    padding-top: 150px;
-}
+
 
 #center {
     text-align: center;
