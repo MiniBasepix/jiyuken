@@ -13,10 +13,6 @@ body {
   /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc { 
     display: block !important; 
-    .center {
-    text-align: center;
-    padding-top: 300px;
-}
 }
 .phone {
     display: none !important;
@@ -29,10 +25,6 @@ body {
     }
     .phone { 
         display: block !important; 
-        .center {
-    text-align: center;
-    padding-top: 25px;
-}
     }
 }
 
@@ -117,4 +109,14 @@ header a {
 
 a h6 {
     color: bark-gray;    
+}
+
+.pc .center {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.phone .center {
+    text-align: center;
+    padding-top: 25px;
 }
