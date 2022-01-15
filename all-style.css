@@ -101,7 +101,10 @@ header a {
     visibility: hidden;
   }
 
-
+.center {
+    text-align: center;
+    padding-top: 300px;
+}
 
 #center {
     text-align: center;
@@ -109,9 +112,4 @@ header a {
 
 a h6 {
     color: bark-gray;    
-}
-
-.center {
-    text-align: center;
-    padding-top: 225px;
 }
