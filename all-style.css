@@ -63,6 +63,7 @@ footer {
     width: 100%;
     font-size: 15px;
     color: white;
+    bottom: 0;
 }
 
 footer h5 {
