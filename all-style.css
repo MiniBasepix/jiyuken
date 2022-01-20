@@ -8,6 +8,9 @@ body {
     font-family: 'Nunito Sans';
     background-color:whitesmoke;
     text-decoration: none;
+    position: relative;
+    width: 100%;
+    height: auto !important;  
   }
 
   /* パソコンで見たときは"pc"のclassがついた画像が表示される */
