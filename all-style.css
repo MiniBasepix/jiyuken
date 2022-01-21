@@ -14,18 +14,14 @@ body {
 .pc { 
     display: block !important; 
 }
+m{
+    padding-left: 1200px;
+    font-size: 20px;
+}
 .phone {
     display: none !important;
 }
 
-header {
-    display: block !important;
-}
-
-.phone {
-    text-align: center;
-}
- 
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
 @media only screen and (max-width: 1023px) {
     .pc { 
@@ -34,8 +30,11 @@ header {
     .phone { 
         display: block !important; 
     }
-    header {
+    hreder {
         text-align: center;
+    }
+    m{
+    font-size: 10px;
     }
 }
 
