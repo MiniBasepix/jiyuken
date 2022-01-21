@@ -55,11 +55,11 @@ header {
 }
 
 footer {
-    background-color: gray lightgray darkgray gray lightgray gray;
+    background-color: linear-gradient(70deg,gray,lightgray,darkgray,gray,lightgray,gray;)
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
-    position: absolute;
+/*     position: absolute; */
     width: 100%;
     font-size: 15px;
     color: white;
