@@ -45,7 +45,9 @@ header {
 }
 
 footer {
-    background-color: gray;
+    background: -moz-linear-gradient(76deg,gray,darkgray,lightgray,darkgray,gray);
+    background: -webkit-linear-gradient(76deg,gray,darkgray,lightgray,darkgray,gray);
+    background: linear-gradient(76deg,gray,darkgray,lightgray,darkgray,gray);
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -111,12 +113,23 @@ header a {
 }
 
 a h6 {
-    color: barkgray;    
+    color: bark-gray;    
+}
+
+
+::selection {
+    background: rgb(224, 224, 224);
+    color: white;
+}
+
+::-moz-selection {
+    background: rgb(224, 224, 224);
+    color: white;
 }
 
 html {
     scrollbar-width: thin;
-    scrollbar-color: #f1f1f1 lightgray;
+    scrollbar-color: gray lightgray;
 }
 
 ::-webkit-scrollbar {
@@ -130,6 +143,6 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #f1f1f1;
+  background: gray;
   border-radius: 10px;
 }
