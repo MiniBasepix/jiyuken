@@ -26,6 +26,9 @@ body {
     .phone { 
         display: block !important; 
     }
+    header {
+        text-align: center;
+    }
 }
 
 header {
