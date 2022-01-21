@@ -16,6 +16,7 @@ body {
 }
 m {
     font-size: 20px;
+    right: 0;
 }
 .phone {
     display: none !important;
@@ -51,7 +52,6 @@ header {
     font-weight: 700;
     font-size: 25px;
     display: flex;
-    justify-content: space-between;
 }
 
 footer {
