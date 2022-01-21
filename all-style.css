@@ -14,9 +14,7 @@ body {
 .pc { 
     display: block !important; 
 }
-m{
-    display: flex;
-    justify-content: space-between;
+m {
     font-size: 20px;
 }
 .phone {
@@ -34,7 +32,7 @@ m{
     header {
         text-align: center;
     }
-    m{
+    m {
     font-size: 15px;
     }
 }
@@ -52,7 +50,8 @@ header {
     top: 0px;
     font-weight: 700;
     font-size: 25px;
-    position: fixed;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
