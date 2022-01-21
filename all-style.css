@@ -116,7 +116,7 @@ a h6 {
 
 html {
     scrollbar-width: thin;
-    scrollbar-color: white gray;
+    scrollbar-color: #f1f1f1 lightgray;
 }
 
 ::-webkit-scrollbar {
@@ -125,11 +125,11 @@ html {
   }
 
 ::-webkit-scrollbar-track {
-  background: gray;
+  background: lightgray;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: white;
+  background: #f1f1f1;
   border-radius: 10px;
 }
