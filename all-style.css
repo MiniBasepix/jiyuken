@@ -17,11 +17,6 @@ body {
 .phone {
     display: none !important;
 }
-
-.center {
-    text-align: center;
-    padding-top: 300px;
-}
  
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
 @media only screen and (max-width: 1023px) {
@@ -30,11 +25,6 @@ body {
     }
     .phone { 
         display: block !important; 
-    }
-    
-    .center {
-    text-align: center;
-    padding-top: 200px;
     }
 }
 
@@ -111,12 +101,35 @@ header a {
     visibility: hidden;
   }
 
-
+.center {
+    text-align: center;
+    padding-top: 300px;
+}
 
 #center {
     text-align: center;
 }
 
 a h6 {
-    color: bark-gray;    
+    color: barkgray;    
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: white gray;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+::-webkit-scrollbar-track {
+  background: gray;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
 }
