@@ -55,7 +55,7 @@ header {
 }
 
 footer {
-    background-color: linear-gradient(70deg,gray,lightgray,darkgray,gray,lightgray,gray;)
+    background-color: linear-gradient(70deg,gray,80deg,lightgray,50deg,darkgray,10deg,gray,70deg,lightgray,gray;)
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
