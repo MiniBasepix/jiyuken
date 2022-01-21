@@ -18,8 +18,11 @@ body {
     display: none !important;
 }
 
-.phone {
+header {
     display: block !important;
+}
+
+.phone {
     text-align: center;
 }
  
