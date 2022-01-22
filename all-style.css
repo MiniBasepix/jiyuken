@@ -14,14 +14,10 @@ body {
 .pc { 
     display: block !important; 
 }
-m {
-    font-size: 20px;
-    padding-left: 1000px;
-}
 .phone {
     display: none !important;
 }
-
+ 
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
 @media only screen and (max-width: 1023px) {
     .pc { 
@@ -29,13 +25,6 @@ m {
     }
     .phone { 
         display: block !important; 
-    }
-    header {
-        text-align: center;
-    }
-    m {
-        font-size: 7.5px;
-        padding-left: 0;
     }
 }
 
@@ -52,7 +41,7 @@ header {
     top: 0px;
     font-weight: 700;
     font-size: 25px;
-    display: flex;
+    position: fixed;
 }
 
 footer {
