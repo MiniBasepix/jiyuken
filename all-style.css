@@ -16,7 +16,7 @@ body {
 }
 m {
     font-size: 20px;
-    margin:0 0 0 auto
+    float:right;
 }
 .phone {
     display: none !important;
