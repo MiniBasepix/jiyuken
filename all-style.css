@@ -18,10 +18,6 @@ body {
     display: none !important;
 }
  
-m {
-    padding-left: 1000px;
-    font-size: 18px;
-}
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
 @media only screen and (max-width: 1023px) {
     .pc { 
@@ -30,10 +26,6 @@ m {
     .phone { 
         display: block !important; 
     }
-    
-    m {
-        font-size: 10px;
-        padding-left: none;
 }
 
 header {
