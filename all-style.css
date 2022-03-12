@@ -129,9 +129,10 @@ header a {
   }
 
 .center {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+    position: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a h6 {
