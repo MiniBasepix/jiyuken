@@ -129,12 +129,11 @@ header a {
   }
 
 .center {
-    text-align: center;
-    padding-top: 20%;
-}
-
-#center {
-    text-align: center;
+      height:60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 }
 
 a h6 {
