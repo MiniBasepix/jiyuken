@@ -129,8 +129,8 @@ header a {
   }
 
 .center {
-    display: grid;
-  place-items: center;
+    text-align: center;
+    padding-top: auto;
 }
 
 a h6 {
