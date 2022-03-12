@@ -26,6 +26,11 @@ body {
     .phone { 
         display: block !important; 
     }
+    .phone p {
+        margin: 12.5px;
+        padding:0;
+        margin-left: 20px;
+    }
 }
 
 header {
@@ -70,7 +75,23 @@ footer h6 {
 }
 
 .main {
-    padding-top: 95px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.topber {
+    padding-top: 70px;
+    padding-left: 10px;
+    background-color: lightgray;
+    padding-bottom: 5px;
+}
+
+.topber a {
+    color: white;
+}
+
+.pc .main {
+    padding-left: 2.5%;
 }
 
 a {
@@ -109,7 +130,7 @@ header a {
 
 .center {
     text-align: center;
-    padding-top: 20%;
+    padding-top: 30%;
 }
 
 #center {
