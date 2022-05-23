@@ -76,6 +76,10 @@ a:hover {
   padding-top: 25px;
 }
 
+#header .header-inner .logo :hover{
+  text-decoration: none;
+}
+
 #navi {
   width: 100%;
 }
@@ -204,15 +208,15 @@ a:hover {
 }
 
 .topimage h1 {
-    font-family: 'Noto Serif JP';
     font-size:75px;
+    font-family: 'Noto sans','noto sans jp';
+    font-weight: lighter;
 }
 
 .topimage {
-    background: linear-gradient(200deg,rgb(48, 184, 48),rgb(255, 136, 0));
+    background: linear-gradient(200deg,rgb(154, 226, 234),rgb(172, 230, 253));
     padding: 10%;
     color: white;
-    font-weight: 500;
     font-size: 25%;
 }
 
@@ -232,27 +236,27 @@ footer a {
 }
 
 .color_seince {
-    background-color: rgb(178, 214, 228);
-    color: white;
-    padding: 20px;
-    margin: 40px;
-    display: flex;
+  background-color: rgb(178, 214, 228);
+  color: white;
+  padding: 20px;
+  margin: 40px;
+  display: inline-block;
 }
 
 .color_seince a {
-    color: white;
+  color: white;
 }
 
 .color_seince_h1 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .color_seince img {
-    width: 25%;
+  width: 75%;
 }
 
 .infor {
-  padding-left: 10%;
+padding-left: 0;
 }
 
 .noscript {
@@ -317,6 +321,32 @@ footer a {
 }
 
 ::selection {
-  background: gray;
+  background: lightskyblue;
   color: #fff;
+}
+
+.notfound {
+  background: linear-gradient(rgba(173, 216, 230, 0.836),rgba(135, 206, 250, 0.836));
+}
+
+.all-border {
+  margin: 0;
+  margin-left: 30px;
+  border-left: solid 2px #888888;
+  font-size: 50px;
+}
+
+/*PageTop button*/
+#page-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  background: #fff;
+  color: #737373;
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px -6px rgba(0,0,0,.5), 0 3px 10px -4px rgba(0,0,0,.2);
 }
