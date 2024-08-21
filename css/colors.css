@@ -1,0 +1,13 @@
+body {
+    --standard-text-color: #000000;
+    --standard-background: #ffffff;
+    --jiyukenpage-card-border: #3b3b3b;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --standard-text-color: #ffffff;
+        --standard-background: #212c38;
+        --jiyukenpage-card-border: #8b8b8b;
+    }
+}
