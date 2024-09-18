@@ -31,11 +31,12 @@ li {
     font-size: 2em;
 }
 
-#jiyukenpage a {
+.jiyukenpage_around a {
     color: var(--standard-text-color);
     text-decoration: none;
 }
 
 img {
-    width:100%
+    width:100%;
+    margin: 1.2em 0;
 }
