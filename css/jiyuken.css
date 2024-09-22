@@ -26,7 +26,6 @@ li {
     text-align: center;
 }
 
-
 .jiyukenpage_title {
     font-size: 2em;
 }
@@ -78,4 +77,10 @@ video {
 .top_border {
     border-top: var(--standard-text-color) 3px double;
     padding: 20;
+}
+
+.border_btm {
+    border-bottom: var(--standard-text-color) 3px double;
+    margin: 0 auto 19px auto;
+    width: 50%;
 }
