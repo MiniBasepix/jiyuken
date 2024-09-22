@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/top.css">
     <link rel="stylesheet" href="css/colors.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 </head>
 <body>
 
@@ -17,7 +21,7 @@
         <div id="header_top">
             <div class="jiyuken_headertitle"><a href="index.html">自由研究Pages</a></div>
         </div>
-        <div id="header_bottom">
+        <!-- <div id="header_bottom">
             <div class="header_links">
                 <ul>
                     <li>
@@ -30,51 +34,75 @@
                         <a href="site_info.html">自由研究Pagesについて</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </header>
 
+      <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><h1>色についての研究</h1><a href="category/colors.html" class="slider-btn"><span class="btn-text">詳細を見る<div class="arrow arrow-right"></div></span></a></div>
+      <div class="swiper-slide"><h1>手の大きさ</h1><a href="category/hand_size.html" class="slider-btn"><span class="btn-text">詳細を見る<div class="arrow arrow-right"></div></span></a></div>
+      <div class="swiper-slide"><h1>振動でなぜ回る</h1><a href="category/vib.html" class="slider-btn"><span class="btn-text">詳細を見る<div class="arrow arrow-right"></div></span></a></div>
+      <div class="swiper-slide"><h1>40度以上の暑さを伝える気象用語を考える</h1><a href="category/over_40.html" class="slider-btn"><span class="btn-text">詳細を見る<div class="arrow arrow-right"></div></span></a></div>
+      <div class="swiper-slide"><h1>自由研究Pagesについて</h1><a href="site_info.html" class="slider-btn"><span class="btn-text">詳細を見る<div class="arrow arrow-right"></div></span></a></div></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  
     <div id="main">
 <!-- 最新の自由研究 -->
 
-        <h1>今年の自由研究</h1>
-
             <div class="newest_jiyukenpage_around">
 
-        <a href="j2024.html">
+        <a href="page_year.html">
         <div id="newest_jiyukenpage">
             
 
             <div class="newest_jiyukenpage_title">
-                自由研究2024
+                年度別
             </div>
 
             <div class="newest_jiyukenpage_info">
-                ここをクリックまたはタップすると見ることができます。
+                ここをクリックまたはタップすると移動します
             </div>
 
         </div>
         </a>
         </div>
 
-<!-- その他の自由研究-->
-
-        <div class="other_jiyukenpage_around">
-
-        <a href="jother.html">
-        <div id="other_jiyukenpage">
-                他の年の自由研究はここをクリックまたはタップすると見ることができます。
-        </div>
-        </a>
-
-        </div>
+        <p><a href="old_page.html">過去のページはこちらから</a></p>
 
     </div>
 
 <!-- フッター -->
 
-    <footer id="footer">
-        <small>&copy;<a href="http://github.com/minibasepix">Clos&nbsp;Jasl</a></small>
+    <footer id="footer" style="position: absolute;">
+        <a href="index.html"><p>トップページ</p></a>
+        <small>&copy;2024&nbsp;<a href="http://github.com/minibasepix">Clos&nbsp;Jasl</a></small>
     </footer>
+
+    <!-- swiper js -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper(".swiper", {
+      loop: true,
+      autoplay: {
+      delay: 4000,
+      waitForTransition: false,
+    },
+    // pagination
+    pagination: {
+      el: ".swiper-pagination",
+      type: 'bullets',
+    },
+    // navibutton
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    }
+  });
+    </script>
 </body>
 </html>
