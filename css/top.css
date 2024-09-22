@@ -68,7 +68,8 @@
     }    
     
     .swiper-slide:nth-child(5n + 1) {
-      background: rgb(161, 161, 161);
+      background: url(../slider_pageinfo.png),#1e1e1e;
+      background-repeat: no-repeat;
       color: white;
     }
     
