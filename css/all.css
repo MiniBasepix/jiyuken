@@ -16,15 +16,15 @@ body,html {
 
 #header_top {
     width: 100%;
-    height: 40px;
-    padding: 15px 0;
+    height: 30px;
+    padding: 5px 0;
     border-bottom: solid 1px var(--standard-text-color);
     background: linear-gradient(to left bottom,rgba(67, 133, 255, 0.151),rgba(255, 110, 42, 0.116));
     text-align: center;
 }
 
-#header_top div {
-    font-size: 25px;
+#header_top .jiyuken_headertitle {
+    font-size: 17.5px;
     font-weight: 500;
 }
 
