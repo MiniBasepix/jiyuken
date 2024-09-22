@@ -36,7 +36,46 @@ li {
     text-decoration: none;
 }
 
+.jiyukenpage_c {
+    display: inline-block;
+    width: 70%;
+    margin: 40px 0;
+    padding: 30px 0;
+    border: solid 3px var(--jiyukenpage-card-border);
+    background: #ff149134;
+    text-align: center;
+}
+
 img {
     width:100%;
     margin: 1.2em 0;
+}
+
+video {
+    width: 100%
+}
+
+.align_left {
+    text-align: left;
+}
+
+.align_left li  {
+    padding-top: 1em;
+    list-style: square;
+}
+
+.other_year {
+    background: #240821;
+    width: 100%;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+.other_year a {
+    color: #ffffff;
+}
+
+.top_border {
+    border-top: var(--standard-text-color) 3px double;
+    padding: 20;
 }
