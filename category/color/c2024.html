@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="../../css/all.css">
     <link rel="stylesheet" href="../../css/jiyuken.css">
     <link rel="stylesheet" href="../../css/colors.css">
+    <script>
+        const html = document.getElementsByTagName('html');
+        if (navigator.userAgent.match(/iPhone|Android.+Mobile/)) {
+          html[0].classList.add('touch-device');
+        }
+      </script>
 </head>
 <body>
 
