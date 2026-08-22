@@ -89,7 +89,7 @@
     }
     
     .swiper-slide:nth-child(8n + 5) {
-      background: linear-gradient(to left top,#9fe4b9,#65acc4);
+      background: #167a5f;
     }
     
     .swiper-slide:nth-child(8n + 6) {
@@ -97,11 +97,11 @@
     }
 
     .swiper-slide:nth-child(8n + 7) {
-      background: linear-gradient(to left top,#F4A466,#ff0c0c);
+      background: #b4d2dc;
     }
 
     .swiper-slide:nth-child(8n + 8) {
-      background: linear-gradient(to left top,#F4A466,#ff0c0c);
+      background: #020d40;
     }
     
     
