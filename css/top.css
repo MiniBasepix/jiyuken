@@ -67,32 +67,40 @@
     height: 100%;
     }    
     
-    .swiper-slide:nth-child(6n + 1) {
+    .swiper-slide:nth-child(8n + 1) {
       background: url(../slider_pageinfo.png),#1e1e1e;
       background-repeat: no-repeat;
       color: white;
     }
 
-        .swiper-slide:nth-child(6n + 2) {
+        .swiper-slide:nth-child(8n + 2) {
       background: #e7be29;
       color: white;
       }
       
     
-    .swiper-slide:nth-child(6n + 3) {
+    .swiper-slide:nth-child(8n + 3) {
       background: linear-gradient(to left top,#f1f1f1,#c0c0c0 45%,#ff1493);
       color: white;
       }
     
-    .swiper-slide:nth-child(6n + 4) {
+    .swiper-slide:nth-child(8n + 4) {
       background: #3f7788;
     }
     
-    .swiper-slide:nth-child(6n + 5) {
+    .swiper-slide:nth-child(8n + 5) {
       background: linear-gradient(to left top,#9fe4b9,#65acc4);
     }
     
-    .swiper-slide:nth-child(6n + 6) {
+    .swiper-slide:nth-child(8n + 6) {
+      background: linear-gradient(to left top,#F4A466,#ff0c0c);
+    }
+
+    .swiper-slide:nth-child(8n + 7) {
+      background: linear-gradient(to left top,#F4A466,#ff0c0c);
+    }
+
+    .swiper-slide:nth-child(8n + 8) {
       background: linear-gradient(to left top,#F4A466,#ff0c0c);
     }
     
