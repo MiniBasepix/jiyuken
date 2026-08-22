@@ -51,14 +51,16 @@ body,html {
 }
 
 footer {
+    position: fixed;
     right: 0;
     bottom: 0;
     width: 100%;
-    padding: 20px 0;
-    background-color: #240821;
+    padding: 5px 0;
+    background-color: #1d1845;
     color: #ffffff;
     text-align: center;
 }
+
 
 footer a {
     color: #ffffff;
@@ -66,7 +68,7 @@ footer a {
 }
 
 footer p {
-    margin: 0 0 0.75em 0;
+    margin: 0 0 1px 0;
 }
 
 ::-webkit-scrollbar {
